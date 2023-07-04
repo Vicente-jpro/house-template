@@ -1,0 +1,2 @@
+# house-template
+ Initial commit

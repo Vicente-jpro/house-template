@@ -3,31 +3,36 @@ body{
    
 }
 
+.nav-link:hover{
+    background-color: #fce4ec !important;
+    color: #004d40 !important;
 
-p, 
-.text-blue-grey{
-    color: #263238;
 }
 
+.card{
+    border: 0%;
+    border-radius: none;
+}
+
+.card:hover, .card-img-top{
+    background-color: #fce4ec !important;
+ }
 
 .card-link{
     text-decoration: none;
 }
 
-.card:hover {
-    color: #f50057 n !important;
-  }
 
 .text-pink{
-    color: #e2686D !important;
+    color: #e91e63 !important;
 }
+
 .bg-pink{
-    background-color: #e2686D !important;
+    background-color: #e91e63 !important;
 }
 
 
 .bg-green {
     color: #004d40 !important;
     background-color: #e0f2f1 !important;
-
 }

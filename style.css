@@ -2,10 +2,32 @@ body{
    font-family: 'Roboto', sans-serif;
    
 }
+
+
+p, 
+.text-blue-grey{
+    color: #263238;
+}
+
+
 .card-link{
     text-decoration: none;
 }
 
 .card:hover {
-    color: olivedrab;
+    color: #f50057 n !important;
   }
+
+.text-pink{
+    color: #e2686D !important;
+}
+.bg-pink{
+    background-color: #e2686D !important;
+}
+
+
+.bg-green {
+    color: #004d40 !important;
+    background-color: #e0f2f1 !important;
+
+}

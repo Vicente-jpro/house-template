@@ -22,17 +22,29 @@ body{
     text-decoration: none;
 }
 
+.fixed{
+    flex-basis: 0; 
+    flex-grow: 1;
+}
+
 
 .text-pink{
     color: #e91e63 !important;
 }
 
-.bg-pink{
+.bg-pink, .btn-pink{
     background-color: #e91e63 !important;
+}
+.btn-pink{
+    color: white !important;
 }
 
 
 .bg-green {
     color: #004d40 !important;
     background-color: #e0f2f1 !important;
+}
+
+.text-description{
+    font-size: 18px;
 }

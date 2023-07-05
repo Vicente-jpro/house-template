@@ -17,47 +17,12 @@
  
   </head>
   <body>
-    
-  <header class="p-3 mb-3 border-bottom">
-    <div class="container-fluid">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-</header>
-
+  
 <main>
-  <div class="album py-5 bg-light">
+  <div class="album py-5">
     <div class="container-fluid">
       <p>
-        <strong>Nome do hotel, Provincia, Pais</strong>
+        <strong class="fs-4">Nome do hotel, Provincia, Pais</strong>
       </p>
         <div class="row">
             <div class="col-sm-6 bg-light">
@@ -90,24 +55,28 @@
   </div>
 
   <div class="container">
-    4 hóspedes 2 quartos 3 camas 2 banheiros e meio
+    <p class="fs-4">
+      4 hóspedes 2 quartos 3 camas 2 banheiros e meio
+    </p>
     descricao do local <br>
     <strong>$100</strong>
     <div class="row">
       <div class="col-sm-8">
         <strong>Descrição: </strong>
-        Fresco e elegante apartamento triplex de 3 andares na praia na aldeia tropical de 
-        Umdloti. De dia, contemple o deslumbrante mar azul, dê alguns passos para fora e 
-        mergulhe na piscina, ou aventure-se pela estrada até uma grande praia para banhos 
-        de sol e piscinas rochosas salva-vidas 5 minutos à direita ou 15 minutos à esquerda. 
-        À noite, você pode caminhar até os restaurantes locais ao lado da praia ou fazer um 
-        braai/churrasco sob as estrelas com os grilos cantando e as ondas batendo na costa.
-
+        <p class="text-description">
+          Fresco e elegante apartamento triplex de 3 andares na praia na aldeia tropical de 
+          Umdloti. De dia, contemple o deslumbrante mar azul, dê alguns passos para fora e 
+          mergulhe na piscina, ou aventure-se pela estrada até uma grande praia para banhos 
+          de sol e piscinas rochosas salva-vidas 5 minutos à direita ou 15 minutos à esquerda. 
+          À noite, você pode caminhar até os restaurantes locais ao lado da praia ou fazer um 
+          braai/churrasco sob as estrelas com os grilos cantando e as ondas batendo na costa.
+        </p>
         <hr>
 
-        <Strong> O que esse lugar oferece?</Strong>
+        <Strong class="fs-4 text-pink"> O que esse lugar oferece?</Strong>
         <div class="row">
             <div class="col">
+              <p class="text-description">
               O que esse lugar oferece
               Vista espetacular
               Vista para a praia
@@ -159,8 +128,10 @@
               Taças de vinho
               Torradeira
               Utensílios para churrasco
+            </p>
             </div>
             <div class="col">
+              <p class="text-description">
               Grelha, carvão, espetos de bambu/espetos de ferro, etc.
               Mesa de jantar
               Características da localização
@@ -194,20 +165,37 @@
               Não há detector de monóxido de carbono na propriedade.
               Indisponível: XampuXampu
               Indisponível: Aquecimento CentralAquecimento Central
+              </p>
             </div>
             <sTRONG>Comentários</sTRONG>
 
         </div>
       </div>
       <!-- reservation-->
-      <div class="col d-flex justify-content-center bg-warning">
-        <div class="card" style="width: 18rem; height: 400px ;">
+      <div class="col d-flex justify-content-center">
+        <div class="card fixed" style="width: 18rem; height: 450px ;">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title text-pink text-center">Nome do proprietário</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary text-center">Card subtitle</h6>
+            <p class="card-text text-center text-description">
+              Breve introdução da empresa ou do proprietário
+              <br>
+              telemovel, email
+            </p>
+            <form action="">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sua mensagem" rows="3"></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-pink" type="button">Enviar</button>
+              </div>
+            </form>
           </div>
         </div>
       

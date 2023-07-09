@@ -28,65 +28,70 @@
         <div class="row">
             <div class="col">
                 <div class="mb-3">
-                    <span>Estado do ímovel</span>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Acabado
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          Inacabado
-                        </label>
-                      </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Estado do imovel</option>
+                        <option value="1">Acabado</option>
+                        <option value="2">Acabado não reformado</option>
+                        <option value="3">Inacabado</option>
+                    </select>
                 </div>
             </div>
             <div class="col">
                 <div class="mb-3">
-                    <span>Mobilia do ímovel</span>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Mobibliado
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          Não mobibliado
-                        </label>
-                      </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>O que vaz fazer com o imovel</option>
+                        <option value="1">Arrendar mensalmente</option>
+                        <option value="2">Arrendar diariamente</option>
+                        <option value="3">Vender</option>
+                    </select>
                 </div>
             </div>
-            
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="room">Quarto</label>
+                    <input type="number" class="form-control"  placeholder="Quartos">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="living_room">Sala</label>
+                    <input type="number" class="form-control"  placeholder="Sala">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Quintal</label>
+                    <input type="number" class="form-control"  placeholder="Quintal">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Varanda</label>
+                    <input type="number" class="form-control"  placeholder="Varanda">
+                </div>
+            </div>
+        </div>
+      
+        <div class="mb-3">
+            <input type="number" class="form-control"  placeholder="Preço do ímovel">
         </div>
         <div class="mb-3">
-            <input type="email" class="form-control"  placeholder="name@example.com">
+            <span>Mobilia do ímovel</span>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Mobiliado
+                </label>
             </div>
-            <div class="mb-3">
-            <input type="number" class="form-control"  placeholder="Salário">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Não mobiliado
+                </label>
             </div>
-            <div class="mb-3">
-                <input type="number" class="form-control"  placeholder="Salário">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control"  placeholder="Salário">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control"  placeholder="Salário">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control"  placeholder="Salário">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control"  placeholder="Salário">
-            </div>
-            <div class="mb-3">
-                <label for="date">Praso da candidatura</label>
-            <input type="date" class="form-control">
-            </div>
+        </div>
             <div class="mb-3">
             <textarea class="form-control" rows="3" placeholder="Descrição"></textarea>
             </div>

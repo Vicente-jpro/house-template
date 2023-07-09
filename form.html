@@ -7,8 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="materialize-color.css">
-    <link rel="stylesheet" type="text/css" href="costume.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
     <title>Postar Vaga - Bumbagora</title>
@@ -18,7 +17,7 @@
     <div class="card">
         <div class="card-body">
         <div class="card-title">
-            <h4 class="text-center">Criar anuncio de ímovel</h4>
+            <h4 class="text-center text-pink">Criar anuncio de ímovel</h4>
         </div>
         <div class="row my-2">
 
@@ -86,19 +85,23 @@
                     <input type="number" class="form-control"  placeholder="Piscina">
                 </div>
             </div>
-            <div class="col">
-                <div class="mb-3">
-                    <label for="yard">Largura</label>
-                    <input type="number" class="form-control"  placeholder="Largura y">
-                </div>
-            </div>
-            <div class="col">
-                <div class="mb-3">
-                    <label for="yard">Cumprimento</label>
-                    <input type="number" class="form-control"  placeholder="Cumprimento">
-                </div>
-            </div>
         </div>
+                <div class="row">
+                    <span class="text-center my-1">Dimenção do imovel</span>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="yard">Cumprimento</label>
+                            <input type="number" class="form-control"  placeholder="Cumprimento x">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="yard">Largura</label>
+                            <input type="number" class="form-control"  placeholder="Largura x">
+                        </div>
+                    </div>
+                </div>
+
         <div class="mb-3">
             <select class="form-select" aria-label="Default select example">
                 <option selected>Província</option>
@@ -115,6 +118,57 @@
         </div>
         <div class="mb-3">
             <input type="number" class="form-control"  placeholder="Preço do ímovel">
+        </div>
+        <div class="row">
+            <p class="text-center">O imovel está perto de(a)</p>
+            <div class="col">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Igrejá
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                        </label>
+                      </div>
+                </div>
+            </div>
         </div>
         <div class="mb-3">
             <span>Mobilia do ímovel</span>
@@ -135,7 +189,7 @@
             <textarea class="form-control" rows="3" placeholder="Descrição do imovel"></textarea>
             </div>
             <div class="mb-3 d-grid gap-2">
-                <button class="btn btn-info">Postar Vaga</button>
+                <button class="btn btn-info">Postar imovel</button>
             </div>
         </div>
     </div>

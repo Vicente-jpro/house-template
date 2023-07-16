@@ -22,7 +22,7 @@
         <div class="row my-2">
 
         <div class="mb-3">
-            <input type="text" class="form-control"  placeholder="Titulo ex: Moradia T3 na rua Terra Nova, Angola">
+            <input type="text" class="form-control"  placeholder="Titulo ex: Moradia T3 na rua Terra Nova">
         </div>
         <div class="row">
             <div class="col">
@@ -40,7 +40,8 @@
                     <select class="form-select" aria-label="Default select example">
                         <option selected>O que vaz fazer com o imovel</option>
                         <option value="1">Arrendar mensalmente</option>
-                        <option value="2">Arrendar diariamente</option>
+                        <option value="1">Arrendar mensalmente de forma compartilhada</option>
+                        <option value="2">Arrendar diariamente (24h)</option>
                         <option value="3">Vender</option>
                     </select>
                 </div>
@@ -61,8 +62,8 @@
             </div>
             <div class="col">
                 <div class="mb-3">
-                    <label for="yard">Quintal</label>
-                    <input type="number" class="form-control"  placeholder="Quintal">
+                    <label for="living_room">Cosinha</label>
+                    <input type="number" class="form-control"  placeholder="Cosinha">
                 </div>
             </div>
             <div class="col">
@@ -73,6 +74,12 @@
             </div>
         </div>
         <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Quintal</label>
+                    <input type="number" class="form-control"  placeholder="Quintal">
+                </div>
+            </div>
             <div class="col">
                 <div class="mb-3">
                     <label for="garage">Garagem</label>
@@ -86,21 +93,21 @@
                 </div>
             </div>
         </div>
-                <div class="row">
-                    <span class="text-center my-1">Dimenção do imovel</span>
-                    <div class="col">
-                        <div class="mb-3">
-                            <label for="yard">Cumprimento</label>
-                            <input type="number" class="form-control"  placeholder="Cumprimento x">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="mb-3">
-                            <label for="yard">Largura</label>
-                            <input type="number" class="form-control"  placeholder="Largura x">
-                        </div>
-                    </div>
+        <div class="row">
+            <span class="text-center my-1">Dimenção do imovel</span>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Cumprimento</label>
+                    <input type="number" class="form-control"  placeholder="Cumprimento x">
                 </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Largura</label>
+                    <input type="number" class="form-control"  placeholder="Largura x">
+                </div>
+            </div>
+        </div>
 
         <div class="mb-3">
             <select class="form-select" aria-label="Default select example">

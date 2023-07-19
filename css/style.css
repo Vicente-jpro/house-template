@@ -9,10 +9,6 @@ body{
 
 }
 
-.card{
-    border: 0%;
-    border-radius: none;
-}
 
 .card:hover, .card-img-top{
     background-color: #fce4ec !important;

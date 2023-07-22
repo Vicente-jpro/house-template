@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+<main>
+   <!-- filters-->
+   <section class="container">
+    <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <div class="card-body">
+          <div class="card-title">
+              <h4 class="text-center text-pink">Filtrar por</h4>
+          </div>
+          <div class="row my-2">
+
+          <div class="mb-3">
+            <input type="text" class="form-control"  placeholder="Pesquisar por: Titulo, Província, Municipio / Cidade.">
+         </div>
+          <div class="row">
+              <div class="col">
+                  <div class="mb-3">
+                      <select class="form-select" aria-label="Default select example">
+                          <option selected>Estado do imovel</option>
+                          <option value="1">Acabado</option>
+                          <option value="2">Acabado não reformado</option>
+                          <option value="3">Inacabado</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <select class="form-select" aria-label="Default select example">
+                          <option selected>Tipologia</option>
+                          <option value="1">T1</option>
+                          <option value="2">T2</option>
+                          <option value="3">T3</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>O que vaz fazer com o imovel</option>
+                        <option value="1">Arrendar mensalmente</option>
+                        <option value="1">Arrendar mensalmente de forma compartilhada</option>
+                        <option value="2">Arrendar diariamente (24h)</option>
+                        <option value="3">Vender</option>
+                    </select>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="room">Quarto</label>
+                      <input type="number" class="form-control"  placeholder="Quartos">
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="living_room">Sala</label>
+                      <input type="number" class="form-control"  placeholder="Sala">
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="living_room">Cosinha</label>
+                      <input type="number" class="form-control"  placeholder="Cosinha">
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="yard">Varanda</label>
+                      <input type="number" class="form-control"  placeholder="Varanda">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                    <label for="yard">Quintal</label>
+                    <input type="number" class="form-control"  placeholder="Quintal">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="garage">Garagem</label>
+                    <input type="number" class="form-control"  placeholder="Garagem">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="pool">Piscina</label>
+                    <input type="number" class="form-control"  placeholder="Piscina">
+                </div>
+            </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="yard">Cumprimento</label>
+                      <input type="number" class="form-control"  placeholder="Cumprimento x">
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <label for="yard">Largura</label>
+                      <input type="number" class="form-control"  placeholder="Largura x">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Província</option>
+                    <option value="1">Luanda</option>
+                    <option value="2">Benguela</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Municipio / Cidade</option>
+                    <option value="1">Belas</option>
+                    <option value="2">Rangel</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+              <input type="number" class="form-control"  placeholder="Preço do ímovel">
+          </div>
+          <div class="row">
+              <p class="text-center">O imovel está perto de(a)</p>
+              <div class="col">
+                  <div class="mb-3">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          Igrejá
+                          </label>
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Igrejá
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                      Igrejá
+                      </label>
+                  </div>
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                      </label>
+                  </div>
+              </div>
+          </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                          </label>
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="mb-3">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                          </label>
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                          Checked checkbox
+                          </label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3">
+              <span>Mobilia do ímovel</span>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                      Mobiliado
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                      Não mobiliado
+                  </label>
+              </div>
+          </div>
+
+              <div class="mb-3 d-grid gap-2">
+                  <button class="btn btn-info">Pesquisar</button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
